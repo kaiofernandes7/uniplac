@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="index.html">Sobre mim</a></li>
+                <li><a href="project.html">Projetos</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>Kaio Fernandes</h1>
+            <h2>Desenvolvedor de software</h2>
+        </header>
+        <main>
+            <section>
+                <h3>Contato</h3>
+                <p>
+                    Caso queira entrar em contato comigo para trocar uma ideia pode preencher o formulário ai embaixo ou nos conectarmos no LinkedIn.
+                </p>
+            </section>
+            <section>
+                <form action="pagina-processa-contato" method="post">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome">
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email">
+                </div>
+                <div>
+                    <label for="msg">Mensagem</label>
+                    <textarea id="msg"></textarea>
+                </div>
+                <div class="button">
+                    <button type="submit"> Enviar sua mensagem</button>
+                </div>
+            </section>
+        </form>
+        </main>
+        <footer>
+            <a href="" target="_blank"><img src="./img/github.svg" alt=""><p>GitHub</p></a>
+            <a href="" target="_blank"><img src="./img/linkedin.svg" alt=""><p>LinkedIn</p></a>
+        </footer>
+    </div>
+</body>
+</html>

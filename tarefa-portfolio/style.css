@@ -1,0 +1,127 @@
+body{
+    color: white;
+    background-color: black;
+
+    width: 1000px;
+
+    margin: auto;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.container{
+    padding: 0px 20px;
+}
+
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+
+    list-style-type: none;
+
+    align-items: center;
+
+    padding: 16px;
+}
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:hover{
+    color: rgb(0, 124, 128);
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+
+header img{
+    width: 150px;
+
+    border-radius: 50%;
+    border: 5px solid rgb(0, 124, 128);
+}
+
+
+.center{
+    text-align: center;
+}
+
+
+
+h1{
+    color: rgb(0, 124, 128);
+}
+
+
+h3{
+    color: rgba(183, 219, 220, 0.779);
+}
+
+
+form{
+    
+    text-align: center;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    
+}
+
+form div + div{
+    margin-top: 1em;
+}
+
+label{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea{
+    font: 1em sans-serif;
+
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+      
+.projeto img{
+    width: 300px;
+    
+}
+    
+
+
+footer img{
+    width: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    margin: 20px;
+    text-align: center;
+}
+
+footer p{
+    margin-top: 2px;
+}
