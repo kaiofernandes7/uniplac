@@ -1,0 +1,81 @@
+ /* CSS com nomes em português */
+        body {
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        .conteudo {
+            max-width: 600px;   /*defini uma largura pro container principal */
+            margin: 20px auto; /*usada para centralização do container */
+            border: 1px solid #ccc; /*definindo a borda*/ 
+            padding: 10px; 
+        }
+
+        .seletor-dia {
+            margin-bottom: 20px;
+        }
+
+        .botao-dia {
+            padding: 8px;
+            margin: 2px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            background-color: #f0f0f0;
+        }
+
+        /* Estilo do botão do dia ativo */
+        .botao-dia.ativo {
+            background-color: #333;
+            color: white;
+        }
+
+        .formulario-tarefa {
+            margin-bottom: 20px;
+        }
+
+        #input-tarefa {
+            padding: 8px;
+            width: 70%; /* Largura do input */
+        }
+
+        #btn-adicionar-tarefa {
+            padding: 8px;
+            cursor: pointer;
+        }
+
+        #lista-de-tarefas {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+        }
+        
+        .item-tarefa {
+            padding: 8px;
+            border-bottom: 1px solid #eee;
+            display: flex; /* Para alinhar o texto e o botão */
+            justify-content: space-between; /* Coloca o botão no final */
+            align-items: center;
+        }
+        
+        .item-tarefa span {
+            cursor: pointer;
+        }
+        
+        /* Tarefa concluída com um risco no meio */
+        .item-tarefa.concluida span {
+            text-decoration: line-through;
+            color: #999;
+        }
+        
+        .btn-remover {
+            padding: 4px 8px;
+            background-color: #ffcccc; /* Fundo vermelho claro */
+            border: 1px solid #ff9999; /* Borda vermelha */
+            cursor: pointer;
+        }
+        
+        footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #888;
+        }
